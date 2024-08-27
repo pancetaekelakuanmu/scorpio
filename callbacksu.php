@@ -3,7 +3,7 @@ require_once 'config.php';
 date_default_timezone_set('Asia/Jakarta');
 header('Content-Type: application/json');
 
-$logPath = '/var/www/html/.cbk/cbk.log';
+$logPath = '/var/www/html/cbk';
 
 function logMessage($message) {
     global $logPath;
