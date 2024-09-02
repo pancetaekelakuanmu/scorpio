@@ -52,8 +52,7 @@ when user try to test send the request to my callback server, as a requirements 
 {"command":"authenticate","data":{"account":"test1234"},"timestamp":"1676116606","check":"21"}
 
 
-
-curl -X POST https://cbk.hyperasterix.com/ \ -X POST https://cbk.hyperasterix.com/ \
+curl -X POST https://cbk.hyperasterix.com/ \
      -H "Callback-Token: 85c268d3-6eb8-4c91-ace6-17b7a7d28616" \
      -H "Content-Type: application/json" \
      -d '{"command": "authenticate", "data": {"account": "test1234"}}'
