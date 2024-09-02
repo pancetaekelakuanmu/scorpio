@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 $servername = "127.0.0.1";
 $username = "root";
-$password = "jancok123";
+$password = "";
 $database = "casino";
 
 $dbConn = new mysqli($servername, $username, $password, $database);
@@ -13,7 +13,7 @@ if ($dbConn->connect_error) {
 }
 
 const CALLBACK_TOKEN = '85c268d3-6eb8-4c91-ace6-17b7a7d28616';
-$logPath = '/var/www/html/.cbk';
+$logPath = '/var/www/html/cbk';
 const MAX_RETRIES = 3; 
 const RETRY_DELAY = 2;
 
